@@ -1,0 +1,59 @@
+<% layout("/layouts/boilerplate") -%>
+<style>
+  body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+
+  .hero-section {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+      ),
+      url("/assets/clay-banks-V-v_DBDtFIc-unsplash.jpg") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; 
+  }
+
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    /* color: black; */
+  }
+
+  .hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    /* color: black; */
+  }
+
+  .cta-button {
+    display: inline-block;
+    background-color: #fe424d;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background-color: #ea5660;
+  }
+</style>
+<body>
+  <section class="hero-section">
+    <h1>Find Your Perfect Geteway with Wanderlust</h1>
+    <p>Discover unique places to stay and explore the world.</p>
+    <a href="/listings" class="cta-button">Explore Now</a>
+  </section>
+
+</body>
